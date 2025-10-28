@@ -27,10 +27,6 @@
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION":"mysql",
         "ASSET_URL":"https://posbankum.vercel.app/",
-        "DB_HOST":"127.0.0.1",
-        "DB_PORT":"3306",
-        "DB_DATABASE":"posbankum_db",
-        "DB_USERNAME":"root",
-        "DB_PASSWORD":""
+        "DB_URL":"mysql://root:znZnJEYNoYKXEnJCbTIudxhrLkJrxbaV@metro.proxy.rlwy.net:50368/railway"
     }
 }
