@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>@yield('title', 'POSBANKUM Desa Pulau Gadang')</title>
+    <title>@yield('title', 'POSBANKUMDES Desa Pulau Gadang')</title>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -314,7 +314,7 @@
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">
                 <i class="fas fa-balance-scale"></i>
-                <span>POSBANKUM Pulau Gadang</span>
+                <span>POSBANKUMDES Pulau Gadang</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <i class="fas fa-bars"></i>
@@ -374,7 +374,7 @@
                 <div class="col-md-4 mb-4">
                     <h5>
                         <i class="fas fa-balance-scale"></i>
-                        POSBANKUM Pulau Gadang
+                        POSBANKUMDES Pulau Gadang
                     </h5>
                     <p class="text-muted">Pos Bantuan Hukum Desa Pulau Gadang memberikan layanan konsultasi hukum gratis untuk masyarakat dengan profesional dan terpercaya.</p>
                     <div class="mt-3">
